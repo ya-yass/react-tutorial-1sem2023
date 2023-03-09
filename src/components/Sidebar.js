@@ -11,7 +11,7 @@ const Sidebar = () => {
     <Box sx={{
       background: "#DDD",
       width: 200,
-      height: 500,
+      height: '100%',
     }}>
       <h2>Sidebar</h2>
       <img
@@ -20,7 +20,10 @@ const Sidebar = () => {
         }}
         src="https://t.ctcdn.com.br/essK16aBUDd_65hp5umT3aMn_i8=/400x400/smart/filters:format(webp)/i606944.png" />
 
-      <img src={fotoTwt} />
+      <img src={fotoTwt}
+        style={{
+          width: 200,
+        }} />
 
       <hr></hr>
 
