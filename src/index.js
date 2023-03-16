@@ -12,8 +12,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
   // requisita 'root' para que tudo o que vem depois apareça na página
 root.render(
   <React.StrictMode>
-    {/* carrega o componente duas vezes para que quando a ação for abortada, ela pare a requisição | um exemplo é quando o usuário requisitou uma informação dentro do banco de dados, mas logo depois cancelou o pedido; StrictMode serve para comunicar o banco que a ação foi abortada */}
     <App />
     {/* <div>Olá Mundo</div> */}
-  </React.StrictMode>
+  </React.StrictMode>  
+  /* carrega o componente duas vezes para que quando a ação for abortada, ela pare a requisição | um exemplo é quando o usuário requisitou uma informação dentro do banco de dados, mas logo depois cancelou o pedido; StrictMode serve para comunicar o banco que a ação foi abortada
+  Ele só roda no modo dev, então quando o usuário usar nosso site, isso de rodar duas vezes não vai acontecer*/
 );

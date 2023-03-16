@@ -57,3 +57,6 @@ const App = () => {
 }
 
 export default App
+
+//pra que usar react? --> trabalha com componentes e isso facilita no trabalho de times e projetos muito grandes
+//aprendemos: criar componentes, estilzar um componente, colocar imagem, colocar ícones usando uma biblioteca externa

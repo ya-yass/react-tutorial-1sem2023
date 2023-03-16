@@ -11,7 +11,6 @@ const Sidebar = () => {
     <Box sx={{
       background: "#DDD",
       width: 200,
-      height: '100%',
     }}>
       <h2>Sidebar</h2>
       <img
