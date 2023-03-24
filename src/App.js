@@ -9,12 +9,12 @@ import Header from './components/Header'
   return ( //tudo o que estiver em return vai retornar (como resposta) no index, onde a função foi chamada
     // é JSX, não HTML, uma linguagem semelhante
     // para atribuir classe ao elemento, usa-se className
-    <div className="App"> 
+    <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <b>UN-TAKE ME</b> - React
-          
+
         </p>
       </header>
     </div>
@@ -23,7 +23,7 @@ import Header from './components/Header'
 
 const App = () =>{ // modo atual de programar
   return(
-    <> 
+    <>
     <h1>aaa</h1>
     <p> "<></>" é um <b>fragment</b>, usado como seção pai para que todo o restante do código prossiga normalmente</p>
     </>
@@ -32,7 +32,9 @@ const App = () =>{ // modo atual de programar
 export default App; //tag necessária para exportar o componente
 */
 
-import Box from '@mui/material/Box';
+
+// FORAM PRA DENTRO DE HOME
+/*import Box from '@mui/material/Box';
 
 import Header from './components/Header'
 import MainMenu from './components/MainMenu'
@@ -56,7 +58,17 @@ const App = () => {
   )
 }
 
-export default App
+export default App*/
 
 //pra que usar react? --> trabalha com componentes e isso facilita no trabalho de times e projetos muito grandes
 //aprendemos: criar componentes, estilzar um componente, colocar imagem, colocar ícones usando uma biblioteca externa
+
+
+import Router from "./Router";
+const App = () => {
+  return (
+    <Router />
+  )
+}
+
+export default App

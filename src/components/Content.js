@@ -2,15 +2,18 @@ import Box from '@mui/material/Box';
 import Alert from './Alert';
 import SampleUseState from './SampleUseState';
 
-const Content = () => {
+const Content = ({ title, children }) => {
   return (
     <Box sx={{
       background: '#f5f5f5',
       width: '100%',
     }}>
-      <h2>Content</h2>
+      <h2>{title}</h2>
+
+      {children}
+
       {/* PROFESSOR */}
-      <Alert type="success" >
+      {/* <Alert type="success" >
         Deu certo!
       </Alert>
 
@@ -24,11 +27,11 @@ const Content = () => {
 
       <Alert type="warning">
         Warning!
-      </Alert>   
+      </Alert>    */}
 
-      {/* MEU // tirar o do professor e descomentar o meu alert.js para funcionar */}
+      {/* MEU // tirar o do professor e descomentar o meu alert.js para funcionar
       <Alert text="Alerta verde" color="#6bff5e" />
-      <Alert text="Alerta vermelho" color="#e33048" />
+      <Alert text="Alerta vermelho" color="#e33048" /> */}
 
       <SampleUseState></SampleUseState>
     </Box>
