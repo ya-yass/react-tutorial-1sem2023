@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom' /* react responsável pela criação de rotas */
-import About from './Pages/About'
-import Contato from './Pages/Contato'
-import Error404 from './Pages/Error404'
-import Home from './Pages/Home'
+import About from './pages/About'
+import Contato from './pages/Contato'
+import Error404 from './pages/Error404'
+import Home from './pages/Home'
 
 const Router = () => {
   return (
